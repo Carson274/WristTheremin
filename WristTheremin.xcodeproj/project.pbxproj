@@ -6,18 +6,7 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		B5EAB1D42ED2A14700F6C7EF /* WristThereminWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B5EAB1CA2ED2A13D00F6C7EF /* WristThereminWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
-		B5EAB1D22ED2A14700F6C7EF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B5EAB1A82ED2A0F400F6C7EF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5EAB1C92ED2A13D00F6C7EF;
-			remoteInfo = "WristThereminWatch Watch App";
-		};
 		B5EAB1E52ED2A18C00F6C7EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B5EAB1A82ED2A0F400F6C7EF /* Project object */;
@@ -34,7 +23,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				B5EAB1D42ED2A14700F6C7EF /* WristThereminWatch Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,7 +31,6 @@
 
 /* Begin PBXFileReference section */
 		B5EAB1B02ED2A0F400F6C7EF /* WristTheremin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WristTheremin.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B5EAB1CA2ED2A13D00F6C7EF /* WristThereminWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WristThereminWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5EAB1DD2ED2A18000F6C7EF /* WristThereminWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WristThereminWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -81,13 +68,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5EAB1C72ED2A13D00F6C7EF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5EAB1DA2ED2A18000F6C7EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -111,7 +91,6 @@
 			isa = PBXGroup;
 			children = (
 				B5EAB1B02ED2A0F400F6C7EF /* WristTheremin.app */,
-				B5EAB1CA2ED2A13D00F6C7EF /* WristThereminWatch Watch App.app */,
 				B5EAB1DD2ED2A18000F6C7EF /* WristThereminWatch Watch App.app */,
 			);
 			name = Products;
@@ -132,7 +111,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B5EAB1D32ED2A14700F6C7EF /* PBXTargetDependency */,
 				B5EAB1E62ED2A18C00F6C7EF /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
@@ -143,25 +121,6 @@
 			);
 			productName = WristTheremin;
 			productReference = B5EAB1B02ED2A0F400F6C7EF /* WristTheremin.app */;
-			productType = "com.apple.product-type.application";
-		};
-		B5EAB1C92ED2A13D00F6C7EF /* WristThereminWatch Watch App */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B5EAB1D52ED2A14700F6C7EF /* Build configuration list for PBXNativeTarget "WristThereminWatch Watch App" */;
-			buildPhases = (
-				B5EAB1C62ED2A13D00F6C7EF /* Sources */,
-				B5EAB1C72ED2A13D00F6C7EF /* Frameworks */,
-				B5EAB1C82ED2A13D00F6C7EF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "WristThereminWatch Watch App";
-			packageProductDependencies = (
-			);
-			productName = "WristThereminWatch Watch App";
-			productReference = B5EAB1CA2ED2A13D00F6C7EF /* WristThereminWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		B5EAB1DC2ED2A18000F6C7EF /* WristThereminWatch Watch App */ = {
@@ -199,9 +158,6 @@
 					B5EAB1AF2ED2A0F400F6C7EF = {
 						CreatedOnToolsVersion = 26.1;
 					};
-					B5EAB1C92ED2A13D00F6C7EF = {
-						CreatedOnToolsVersion = 26.1;
-					};
 					B5EAB1DC2ED2A18000F6C7EF = {
 						CreatedOnToolsVersion = 26.1;
 					};
@@ -222,7 +178,6 @@
 			projectRoot = "";
 			targets = (
 				B5EAB1AF2ED2A0F400F6C7EF /* WristTheremin */,
-				B5EAB1C92ED2A13D00F6C7EF /* WristThereminWatch Watch App */,
 				B5EAB1DC2ED2A18000F6C7EF /* WristThereminWatch Watch App */,
 			);
 		};
@@ -230,13 +185,6 @@
 
 /* Begin PBXResourcesBuildPhase section */
 		B5EAB1AE2ED2A0F400F6C7EF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		B5EAB1C82ED2A13D00F6C7EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -260,13 +208,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5EAB1C62ED2A13D00F6C7EF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B5EAB1D92ED2A18000F6C7EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -277,11 +218,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		B5EAB1D32ED2A14700F6C7EF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = B5EAB1C92ED2A13D00F6C7EF /* WristThereminWatch Watch App */;
-			targetProxy = B5EAB1D22ED2A14700F6C7EF /* PBXContainerItemProxy */;
-		};
 		B5EAB1E62ED2A18C00F6C7EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B5EAB1DC2ED2A18000F6C7EF /* WristThereminWatch Watch App */;
@@ -475,70 +411,6 @@
 			};
 			name = Release;
 		};
-		B5EAB1D62ED2A14700F6C7EF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = WristThereminWatch;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.secrestc.WristTheremin;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.secrestc.WristTheremin.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.1;
-			};
-			name = Debug;
-		};
-		B5EAB1D72ED2A14700F6C7EF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = WristThereminWatch;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.secrestc.WristTheremin;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.secrestc.WristTheremin.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				STRING_CATALOG_GENERATE_SYMBOLS = YES;
-				SWIFT_APPROACHABLE_CONCURRENCY = YES;
-				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 26.1;
-			};
-			name = Release;
-		};
 		B5EAB1E82ED2A18C00F6C7EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -620,15 +492,6 @@
 			buildConfigurations = (
 				B5EAB1C22ED2A0F700F6C7EF /* Debug */,
 				B5EAB1C32ED2A0F700F6C7EF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		B5EAB1D52ED2A14700F6C7EF /* Build configuration list for PBXNativeTarget "WristThereminWatch Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B5EAB1D62ED2A14700F6C7EF /* Debug */,
-				B5EAB1D72ED2A14700F6C7EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
